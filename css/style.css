@@ -55,5 +55,29 @@ ul{
 a{
     text-decoration: none;
     color: white;
+    font-weight: 600;
 }
 
+#jumbotron{
+    min-height: 546px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+main section h1{
+    padding-top: 80px;
+    font-size: 50px;
+}
+
+.p{
+    margin-top: 30px;
+}
+
+main section div p{
+   padding: 5px;
+    font-size: 20px;
+
+}
