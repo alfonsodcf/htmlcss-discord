@@ -118,9 +118,20 @@ main section div p{
 .item h2{
     font-size: 50px;
     padding: 0 120px;
+    margin-top: 20px;
 }
 
 .item p{
     margin-top: 20px;
     padding: 0 120px;
+}
+
+.svgg{
+    color: rgb(235, 235, 235);
+    margin-bottom: -5px;
+
+}
+
+.bgray{
+    background-color: rgb(235, 235, 235);
 }
