@@ -17,9 +17,10 @@ body{
 .container{
     width: 80%;
     margin: 0 auto;
-
 }
+
 header{
+    min-width: 980px;
     background-color: rgb(0, 140, 255);
 }
 
@@ -29,16 +30,39 @@ nav .logo{
 
 }
 
-nav .button{
-    float: right;
-    padding-top: 25px;
+.button{
+    margin-top: 30px;
+    display: inline-block;
 }
 
-nav .button a{
-    padding: 10px 15px;
+nav .button{
+    float: right;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+ .button a{
+    padding: 15px 20px;
+    border-radius:25px;
+}
+
+.bw a{
     color: black;
     background-color: white;
-    border-radius:20px;
+
+}
+.bb a{
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+
+.button-jumb{
+    padding: 20px 15px;
+    font-size: 20px;
+    font-weight: 200;
 }
 
 li{
@@ -50,13 +74,10 @@ li{
 ul{
     text-align: center;
     padding: 30px;
+
 }
 
-a{
-    text-decoration: none;
-    color: white;
-    font-weight: 600;
-}
+
 
 #jumbotron{
     min-height: 546px;
