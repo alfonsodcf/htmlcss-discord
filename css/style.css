@@ -15,7 +15,7 @@ body{
 }
 
 .container{
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -101,4 +101,26 @@ main section div p{
    padding: 5px;
     font-size: 20px;
 
+}
+
+.margintop{
+    margin-top: 100px;
+}
+
+.float{
+    float: left;
+}
+
+.item{
+    width: 50%;
+}
+
+.item h2{
+    font-size: 50px;
+    padding: 0 120px;
+}
+
+.item p{
+    margin-top: 20px;
+    padding: 0 120px;
 }
