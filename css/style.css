@@ -103,8 +103,12 @@ main section div p{
 
 }
 
-.margintop{
-    margin-top: 100px;
+.paddingtop{
+    padding-top: 100px;
+}
+
+.marginbott{
+    margin-bottom: 100px;
 }
 
 .float{
@@ -131,7 +135,19 @@ main section div p{
     margin-bottom: -5px;
 
 }
+.svgw{
+    color: white;
+    margin-bottom: -5px;
+}
 
 .bgray{
     background-color: rgb(235, 235, 235);
+}
+
+.centro{
+    text-align: center;
+}
+
+section div h3{
+    background-image: url(../img/stars.svg);
 }
